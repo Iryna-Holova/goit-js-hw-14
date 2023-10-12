@@ -7,7 +7,8 @@ Write a script that:
 
 1. Counts and outputs to the console the number of categories in ul#categories, (li.item elements).
 2. For each li.item element in the ul#categories list, it will find and output to the console the text of the element's title (the h2 tag) and the number of elements in the category (all li's embedded in it).
-   To perform this task, you need to use the forEach() method and DOM navigation properties.
+
+To perform this task, you need to use the forEach() method and DOM navigation properties.
 
 **Task 2**
 
@@ -18,14 +19,16 @@ Write a script that for each element of the ingredients array:
 1. Create a li element. Be sure to use the document.createElement() method.
 2. Add the name of the ingredient as its text content.
 3. Add the item class to the element.
-   After that, it will insert all li in one operation into the ul#ingredients list.
+
+After that, it will insert all li in one operation into the ul#ingredients list.
 
 **Task 3**
 
 The HTML contains a list of ul.gallery.
 Write a script to create an image gallery based on an array of data.
-Use an array of images objects to create img elements. To create markup, use the insertAdjacentHTML() method.
-All gallery elements must be added to the DOM in a single add operation.
+
+Use an array of images objects to create img elements. To create markup, use the insertAdjacentHTML() method. All gallery elements must be added to the DOM in a single add operation.
+
 Add minimal design of the gallery with flexboxes or grids through CSS classes.
 
 **Task 4**
